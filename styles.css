@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+:root {
+  --grayblue: #546294;
+  --lightgrayblue: #949FC7;
+  --blue: #172F5B;
+  --base: #FCFBF8;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+.navbar-item img {
+  max-height: 2.5rem;
+}
+
+.is-three-quarters-height {
+  min-height: 75vh;
+}
+
+.hero-text {
+  color: var(--grayblue);
+  font-size: 5rem;
+  text-shadow: .040em .040em 0.04em rgb(219, 226, 231), .08em .08em 0.04em #bcbdce;
+}
+
+.hero-image {
+  color: var(--grayblue);
+  -webkit-filter: drop-shadow( 3px 3px 2px #E7DCD7);
+  filter: drop-shadow( 5px 5px 1px #E7DCD7);
+}
+
+.outline-text {
+  font-size: 5rem;
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero-paragraph-text {
+  font-size: 2.5rem;
+}
+
+.has-lightgrayblue-background {
+  background-color: var(--lightgrayblue) !important;
+}
+
+.has-grayblue-background {
+  background-color: var(--grayblue) !important;
+}
+
+.has-grayblue-border {
+  color: var(--grayblue) !important;
+  border-color: var(--grayblue) !important;
+}
+
+.has-grayblue-text {
+  color: var(--grayblue) !important;
+}
+
+.has-base-text {
+  color: var(--base) !important;
+}
+
+.has-base-background {
+  background-color: var(--base) !important;
+}
+
+.has-base-text {
+  font-family: 'Barlow', sans-serif !important;
+}
+
+@media all and (max-width:30em){
+  .red-button {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+.has-right-black-border {
+  border-right: 2px black solid;
+}
+
+.has-bottom-black-border {
+  border-bottom: 2px black solid;
+}
+
+.is-parent-width {
+  width: 100%
+}
+
+.is-three-quarters-width {
+  width: 75%
+}
+
+.is-half-width {
+  width: 50%
+}
+
+.tile.is-gapless {
+  .tile.is-parent {
+    padding: 0;
+  }
+  
+
+  .tile.is-child {
+    margin-bottom: 0 !important;
+    border-radius: 0;
+  }
+  
+  .notification {
+    border-radius: 0;
+  }
+}
+
+a.navbar-item:hover {
+  color: var(--grayblue);
+}
+
+.is-spotlight-height {
+  height: 250px
+}
+
+.no-mobile-padding-top {
+  padding-top: 0px !important;
+}
+
+
+
