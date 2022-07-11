@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 :root {
-  --grayblue: #546294;
-  --lightgrayblue: #949FC7;
-  --blue: #172F5B;
-  --base: #FCFBF8;
+  --primary: #0D101D;
+  --secondary: #BDC2DA;
+  --base: #FAF6F4;
 }
 
 body {
@@ -20,13 +19,13 @@ body {
 }
 
 .hero-text {
-  color: var(--grayblue);
+  color: var(--primary);
   font-size: 5rem;
-  text-shadow: .040em .040em 0.04em rgb(219, 226, 231), .08em .08em 0.04em #bcbdce;
+
 }
 
 .hero-image {
-  color: var(--grayblue);
+  color: var(--primary);
   -webkit-filter: drop-shadow( 3px 3px 2px #E7DCD7);
   filter: drop-shadow( 5px 5px 1px #E7DCD7);
 }
@@ -41,22 +40,27 @@ body {
   font-size: 2.5rem;
 }
 
-.has-lightgrayblue-background {
-  background-color: var(--lightgrayblue) !important;
+.has-secondary-background {
+  background-color: var(--secondary) !important;
 }
 
-.has-grayblue-background {
-  background-color: var(--grayblue) !important;
+.has-primary-background {
+  background-color: var(--primary) !important;
 }
 
-.has-grayblue-border {
-  color: var(--grayblue) !important;
-  border-color: var(--grayblue) !important;
+.has-primary-border {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
 
-.has-grayblue-text {
-  color: var(--grayblue) !important;
+.has-primary-text {
+  color: var(--primary) !important;
 }
+
+.has-secondary-text {
+  color: var(--secondary) !important;
+}
+
 
 .has-base-text {
   color: var(--base) !important;
@@ -114,7 +118,8 @@ body {
 }
 
 a.navbar-item:hover {
-  color: var(--grayblue);
+  color: var(--secondary);
+  transition: 0.5s;
 }
 
 .is-spotlight-height {
@@ -125,5 +130,12 @@ a.navbar-item:hover {
   padding-top: 0px !important;
 }
 
+.button:hover{
+  background-color: var(--secondary) !important;
+  transition: 0.5s;
+}
 
-
+.link:hover{
+  color: var(--primary) !important;
+  transition: 0.5s;
+}
