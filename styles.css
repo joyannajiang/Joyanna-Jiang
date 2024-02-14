@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 :root {
-  --primary: #0D101D;
+  --primary: #000000;
   --secondary: #BDC2DA;
-  --base: #FAF6F4;
+  --base: #ffffff;
 }
 
 body {
